@@ -1,0 +1,21 @@
+{
+    "name": "dendome/session",
+    "description": "Module for working with session ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DenDOme",
+            "email": "newlifeofkirim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "session\\": "src/"
+        }
+    }
+}
